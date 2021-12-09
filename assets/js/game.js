@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-// function to generate a random numeriv value
-var randomNumber = function(min, max) {
-  var value = Math.floor(Math.random() * (max - min + 1) + min);
-
-  return value;
-};
-
-=======
 var fightOrSkip = function() {
   // ask player if they'd like to fight or skip using fightOrSkip function
   var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
@@ -33,7 +24,6 @@ var fightOrSkip = function() {
   }
   return false;
 };
->>>>>>> develop
 // this creates a function with parameter for enemy's name
 var fight = function(enemy) {
   // keep track of who goes first
@@ -203,8 +193,6 @@ var shop = function() {
   }
 };
 
-<<<<<<< HEAD
-=======
 // function to generate a random numeriv value
 var randomNumber = function(min, max) {
   var value = Math.floor(Math.random() * (max - min + 1) + min);
@@ -224,7 +212,6 @@ var getPlayerName = function() {
   return name;
 };
 
->>>>>>> develop
 var playerInfo = {
   name: getPlayerName(),
   health: 100,
